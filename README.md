@@ -1,5 +1,6 @@
 # homework_fanzai_robot
 1.程序位置
+
 （1）核心程序为“capture_image.cpp”，位置在jaka_ws/src/jaka_driver/src/capture_image.cpp
 
 （2）CmakeLists.txt和package.xml，因为电脑路径不同，请根据自己电脑对应路径更改里面的编译需求，缺少的包自行安装，注意更改的地方很多，请逐一对照。
@@ -15,6 +16,7 @@
 “Calibration-image.png “是标定时所需的图片
 
 2.程序使用（catkin_make编译完成后）
+
 （1）开启程序时请先在一个窗口运行如下代码来连接机器人
 roslaunch jaka_driver robot_start_launch.launch ip:=10.5.5.100
 
@@ -48,6 +50,7 @@ target_pose.rpy.rz = -3.14/ 2;       // Yaw
 如上重复，直至结束。
 
 3.结果展示
+
 见video.mp4
 
 
